@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="author" content="Meron Woldekiros">
     <title>Waffles Recipe</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -19,6 +22,7 @@
         </a>
     </p>
 
+    <!-- ✅ IMAGE (FIXED PATH) -->
     <figure>
         <img src="waffles.png" alt="Waffles" height="250">
         <figcaption>Delicious homemade waffles</figcaption>
@@ -33,12 +37,26 @@
         <li>1 tablespoon sugar</li>
     </ul>
 
-    <h3>Equipment</h3>
-    <ul>
-        <li>Waffle maker</li>
-        <li>Bowl</li>
-        <li>Spoon</li>
-    </ul>
+    <!-- ⭐ Rate Section -->
+    <h3 class="rate">Rate This Recipe</h3>
+
+    <fieldset style="width: 250px;">
+        <legend>How difficult is this recipe?</legend>
+
+        <label><input type="radio" name="level"> Easy</label>
+        <label><input type="radio" name="level"> Intermediate</label>
+        <label><input type="radio" name="level"> Hard</label>
+    </fieldset>
+
+    <p>&nbsp;</p>
+
+    <!-- 🔄 Conversion -->
+    <h3>Conversion</h3>
+
+    <input type="text" placeholder="Tablespoons"> =
+    <input type="text" placeholder="Cups">
+
+    <!-- (Equipment removed as required) -->
 
     <h3>Directions</h3>
     <ol>
@@ -56,5 +74,3 @@
 
 </body>
 </html>
-
-
